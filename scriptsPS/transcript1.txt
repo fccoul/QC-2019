@@ -1,0 +1,31 @@
+﻿**********************
+Début de la transcription Windows PowerShell
+Heure de début : 20190821144555
+Nom d'utilisateur : INTRA\CCO148
+Utilisateur RunAs : INTRA\CCO148
+Ordinateur : P0TB2 (Microsoft Windows NT 6.3.9600.0)
+Application hôte : C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ID de processus : 9376
+**********************
+Transcription démarrée, le fichier de sortie est ./transcript1.txt
+
+PS C:\users\cco148\scripts> get-netipaddress | ft
+
+PS C:\users\cco148\scripts> Erreur de terminaison (Add-Type) : « Impossible d’ajouter un type. Des erreurs de compilation se sont produites. »
+
+PS C:\users\cco148\scripts> Erreur de terminaison (Add-Type) : « Impossible d’ajouter un type. Des erreurs de compilation se sont produites. »
+
+ifIndex IPAddress                                       PrefixLength PrefixOrigin SuffixOrigin AddressState PolicyStore
+------- ---------                                       ------------ ------------ ------------ ------------ -----------
+1       ::1                                                      128 WellKnown    WellKnown    Preferred    ActiveStore
+3       fe80::5949:1e71:34c1:2cb1%3                               64 WellKnown    Link         Preferred    ActiveStore
+1       127.0.0.1                                                  8 WellKnown    WellKnown    Preferred    ActiveStore
+3       10.113.50.32                                              24 Dhcp         Dhcp         Preferred    ActiveStore
+
+
+
+PS C:\users\cco148\scripts> stop-transcript
+**********************
+Fin de la transcription Windows PowerShell
+Heure de fin : 20190821144627
+**********************
